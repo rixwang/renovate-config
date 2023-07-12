@@ -3,10 +3,21 @@
   "labels": ["dependencies"],
   "rebaseWhen": "conflicted",
   "automergeStrategy": "merge-commit",
+  "groupName": "all dependencies",
+  "groupSlug": "all",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
   "packageRules": [
     {
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "matchPackagePatterns": [
+        "*"
+      ],
       "updateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
   ]
 }
+
