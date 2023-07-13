@@ -2,7 +2,7 @@
   "rangeStrategy": "pin",
   "labels": ["dependencies"],
   "rebaseWhen": "conflicted",
-  "automergeStrategy": "merge-commit",
+  "automergeStrategy": "squash-commit",
   "groupName": "all dependencies",
   "groupSlug": "all",
   "lockFileMaintenance": {
