@@ -3,8 +3,6 @@
   "labels": ["dependencies"],
   "rebaseWhen": "conflicted",
   "automergeStrategy": "squash-commit",
-  "groupName": "all dependencies",
-  "groupSlug": "all",
   "lockFileMaintenance": {
     "enabled": false
   },
