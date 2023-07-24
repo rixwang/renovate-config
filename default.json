@@ -13,7 +13,7 @@
       // "matchPackagePatterns": [
       //   "*"
       // ],
-      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "updateTypes": ["minor", "patch"],
       "automerge": true
     }
   ]
