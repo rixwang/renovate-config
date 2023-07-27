@@ -6,7 +6,7 @@
   "lockFileMaintenance": {
     "enabled": false
   },
-  "_comment": "create new branch: rix-ops/maintenance/dependency-updates",
+  "_comment": "create new branch: rix-ops/chore/dependency-updates",
   "baseBranches": ["main"],
   "packageRules": [
     {
