@@ -6,6 +6,8 @@
   "lockFileMaintenance": {
     "enabled": false
   },
+  "_comment": "create new branch: dependency-updates",
+  "baseBranches": ["main"],
   "packageRules": [
     {
        "groupName": "all dependencies",
