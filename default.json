@@ -1,13 +1,11 @@
 {
   "rangeStrategy": "pin",
-  "labels": ["dependencies"],
+  "baseBranches": ["chore/dependency-updates"],
   "rebaseWhen": "conflicted",
-  "automergeStrategy": "squash-commit",
+  "automergeStrategy": "merge-commit",
   "lockFileMaintenance": {
     "enabled": false
   },
-  "_comment": "create new branch: rix-ops/chore/dependency-updates",
-  "baseBranches": ["main"],
   "packageRules": [
     {
        "groupName": "all dependencies",
@@ -15,9 +13,8 @@
        "matchPackagePatterns": [
          "*"
        ],
-      "updateTypes": ["minor", "patch"],
+      "updateTypes": ["minor", "patch", "pin"],
       "automerge": true
     }
   ]
 }
-
