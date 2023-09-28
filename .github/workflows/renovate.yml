@@ -26,6 +26,7 @@ jobs:
       # Don't waste time starting Renovate if JSON is invalid
       - name: Validate Renovate JSON
         run: jq type .github/renovate.json
+      # Run a Renovate Docker container in Github
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v39.0.5
         env:
